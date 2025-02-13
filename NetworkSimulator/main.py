@@ -1,7 +1,7 @@
-from simulate_traffic import generate_traffic
-from capture_traffic import capture_packets
-from extract_five_tuple import extract_five_tuple
-from live_capture import monitor_live_traffic
+from simulateTraffic import generate_traffic
+from captureTraffic import capture_packets
+from extractFiveTuple import extract_five_tuple
+from liveCapture import monitor_live_traffic
 
 def main():
     print("Simulating network traffic...")
