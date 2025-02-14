@@ -47,9 +47,12 @@ sudo usermod -aG libvirt $USER
 newgrp libvirt
 virt-manager
 ```
-![image](https://github.com/user-attachments/assets/c31fd087-a485-45a8-9aa2-73ccd9096040)
-![image](https://github.com/user-attachments/assets/9097a19c-1a6f-48c5-814b-379ce34b3bf1)
-![image](https://github.com/user-attachments/assets/be60681d-5581-4443-83d1-ab4ad3339fec)
+* Memory: 8000 MiB
+* CPUs: 4
+* Storage: 25 GiB
+
+![image](https://github.com/user-attachments/assets/860a32e6-56d7-44c7-9bff-24dd9e71098d)
+
 
 
 
