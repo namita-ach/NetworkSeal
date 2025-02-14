@@ -38,6 +38,7 @@ It's important to understand that KVM and QEMU are distinct but often used toget
 ## My setup:
 ![image](https://github.com/user-attachments/assets/c31fd087-a485-45a8-9aa2-73ccd9096040)
 ![image](https://github.com/user-attachments/assets/9097a19c-1a6f-48c5-814b-379ce34b3bf1)
+![image](https://github.com/user-attachments/assets/be60681d-5581-4443-83d1-ab4ad3339fec)
 
 
 
