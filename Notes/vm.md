@@ -35,12 +35,7 @@ It's important to understand that KVM and QEMU are distinct but often used toget
 *   **Specific Hardware Requirements**: If Faiss requires specific hardware features or configurations, QEMU allows you to emulate them.
 *   **Working with Cloud Deployments**: KVM and QEMU offer flexibility and power to cloud deployments.
 
-## Potential Drawbacks
 
-*   **Complexity**: Setting up and configuring KVM/QEMU can be more complex than using a GUI-based virtualization solution.
-*   **Command-Line Interface**: While tools like `virt-manager` can provide a graphical interface, KVM/QEMU often involves working with the command line.
-
-By using KVM with QEMU, one can run programs that QEMU would not be able to do alone. For example, one might need to deploy an installation of Pterodactyl hosting panel to manage and set-up game servers, which would be impossible without access to KVM
 
 References:
 https://www.skysilk.com/blog/2021/kvm-vs-qemu/
