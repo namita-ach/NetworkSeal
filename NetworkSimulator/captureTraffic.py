@@ -1,7 +1,6 @@
 from scapy.all import sniff, wrpcap
 
-def capture_traffic(filename="captured_traffic.pcap", packet_count=100):
-    """Captures live network packets and saves them to a .pcap file."""
+def capture_traffic(filename="captured_traffic.pcap", packet_count=100): # captute the packets into a pcap
     print(f"Capturing {packet_count} packets...")
     packets = sniff(count=packet_count)
     wrpcap(filename, packets)

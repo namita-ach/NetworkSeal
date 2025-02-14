@@ -7,8 +7,7 @@ common_ports = {
     "HTTP": 80, "HTTPS": 443, "DNS": 53, "FTP": 21, "SSH": 22, "SMTP": 25
 }
 
-def generate_traffic():
-    """Simulates network traffic with random IPs and protocols."""
+def generate_traffic(): # random IP, random protocols
     while True:
         src_ip = get_random_ip()
         dst_ip = get_random_ip()

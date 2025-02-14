@@ -2,8 +2,7 @@ from scapy.all import sniff
 import argparse
 
 def live_capture(interface="eth0"):
-    """Monitors real-time network traffic."""
-    print(f"Capturing live traffic on interface: {interface}")
+    print(f"Capturing live traffic on interface: {interface}") # this is for realtime capture
     
     def process_packet(packet):
         if packet.haslayer("IP"):

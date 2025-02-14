@@ -1,8 +1,8 @@
 import dpkt
 import socket
 
-def extract_five_tuple(pcap_file):
-    """Extracts (src IP, dst IP, src Port, dst Port, Protocol) from a .pcap file."""
+def extract_five_tuple(pcap_file): # we've a pcap
+    # no get the source IP, destination IP, source port, dest port, and protocol
     with open(pcap_file, 'rb') as f:
         pcap = dpkt.pcap.Reader(f)
         for _, buf in pcap:
