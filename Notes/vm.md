@@ -36,6 +36,17 @@ It's important to understand that KVM and QEMU are distinct but often used toget
 *   **Working with Cloud Deployments**: KVM and QEMU offer flexibility and power to cloud deployments.
 
 ## My setup:
+```bash
+sudo apt update
+sudo apt install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils virt-manager -y
+sudo systemctl enable --now libvirtd
+sudo systemctl start libvirtd
+egrep -c '(vmx|svm)' /proc/cpuinfo
+kvm-ok
+sudo usermod -aG libvirt $USER
+newgrp libvirt
+virt-manager
+```
 ![image](https://github.com/user-attachments/assets/c31fd087-a485-45a8-9aa2-73ccd9096040)
 ![image](https://github.com/user-attachments/assets/9097a19c-1a6f-48c5-814b-379ce34b3bf1)
 ![image](https://github.com/user-attachments/assets/be60681d-5581-4443-83d1-ab4ad3339fec)
