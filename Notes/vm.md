@@ -3,7 +3,7 @@ KVM (Kernel-based Virtual Machine) and QEMU are virtualization solutions that, w
 
 ## Why Use KVM/QEMU?
 
-*   **Near-Native Performance**: KVM leverages hardware virtualization extensions (Intel VT-x or AMD-V), allowing VMs to run at near-native speed. This is crucial for Faiss, which can be computationally intensive.
+*   **Near-Native Performance**: KVM leverages hardware virtualization extensions, allowing VMs to run at near-native speed. This is crucial for Faiss, which can be computationally intensive.
 *   **Hardware Emulation**: QEMU emulates hardware devices, allowing unmodified operating systems to run within the VM. This ensures compatibility and stability.
 *   **Storage Flexibility**: QEMU supports virtual disk images in formats like qcow2, which only consume disk space as needed and allow for snapshots. This is useful for managing large Faiss indexes and experimenting with different configurations.
 *   **I/O Threading**: QEMU can use I/O threads for storage controllers, improving work distribution and reducing latency for I/O-intensive workloads. This can benefit Faiss when dealing with large datasets.
