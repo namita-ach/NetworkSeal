@@ -35,6 +35,8 @@ It's important to understand that KVM and QEMU are distinct but often used toget
 *   **Specific Hardware Requirements**: If Faiss requires specific hardware features or configurations, QEMU allows you to emulate them.
 *   **Working with Cloud Deployments**: KVM and QEMU offer flexibility and power to cloud deployments.
 
+## My setup:
+![image](https://github.com/user-attachments/assets/c31fd087-a485-45a8-9aa2-73ccd9096040)
 
 
 References:
